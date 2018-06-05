@@ -1,0 +1,563 @@
+@charset "utf-8";
+/* Medios fluidos sencillos
+   Nota: Los medios fluidos exigen la eliminación de los atributos de altura y anchura de los medios del código HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 no admite max-width (anchura máxima), por lo que usa de manera predeterminada una anchura del 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Propiedades de cuadrícula fluida de Dreamweaver
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiración obtenida de "Responsive Web Design" de Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	y Golden Grid System de Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Diseño móvil: 480 px e inferior. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 37.5%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 16.6666%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 37.5%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 58.3333%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 58.3333%;
+	display: block;
+}
+#LayoutDiv9 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 58.3333%;
+	display: block;
+}
+#LayoutDiv10 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 16.6666%;
+	display: block;
+}
+#LayoutDiv11 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv12 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 16.6666%;
+	display: block;
+}
+#LayoutDiv13 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 58.3333%;
+	display: block;
+}
+#LayoutDiv14 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 16.6666%;
+	display: block;
+}
+#LayoutDiv15 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 58.3333%;
+	display: block;
+}
+#LayoutDiv16 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv17 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 16.6666%;
+	display: block;
+}
+#LayoutDiv18 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 58.3333%;
+	display: block;
+}
+#LayoutDiv19 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv20 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 16.6666%;
+	display: block;
+}
+#LayoutDiv21 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 58.3333%;
+	display: block;
+}
+#LayoutDiv22 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv23 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 79.1666%;
+	display: block;
+}
+#LayoutDiv24 {
+	clear: none;
+	float: left;
+	margin-left: 4.1666%;
+	width: 37.5%;
+	display: block;
+}
+
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 61.5384%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 61.5384%;
+	display: block;
+}
+#LayoutDiv9 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 61.5384%;
+	display: block;
+}
+#LayoutDiv10 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#LayoutDiv11 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv12 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#LayoutDiv13 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 61.5384%;
+	display: block;
+}
+#LayoutDiv14 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#LayoutDiv15 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 61.5384%;
+	display: block;
+}
+#LayoutDiv16 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv17 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#LayoutDiv18 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 61.5384%;
+	display: block;
+}
+#LayoutDiv19 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv20 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 23.0769%;
+	display: block;
+}
+#LayoutDiv21 {
+	clear: none;
+	float: left;
+	margin-left: 15.3846%;
+	width: 48.7179%;
+	display: block;
+}
+#LayoutDiv22 {
+	clear: none;
+	float: left;
+	margin-left: 15.3846%;
+	width: 74.3589%;
+	display: block;
+}
+#LayoutDiv23 {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 48.7179%;
+	display: block;
+}
+#LayoutDiv24 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 35.8974%;
+	display: block;
+}
+}
+
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 18.3673%;
+	display: block;
+}
+#LayoutDiv3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv4 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 18.3673%;
+	display: block;
+}
+#LayoutDiv5 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 18.3673%;
+	display: block;
+}
+#LayoutDiv6 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 18.3673%;
+	display: block;
+}
+#LayoutDiv7 {
+	clear: none;
+	float: left;
+	margin-left: 12.2448%;
+	width: 59.1836%;
+	display: block;
+}
+#LayoutDiv8 {
+	clear: none;
+	float: left;
+	margin-left: 12.2448%;
+	width: 59.1836%;
+	display: block;
+}
+#LayoutDiv9 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 59.1836%;
+	display: block;
+}
+#LayoutDiv10 {
+	clear: none;
+	float: left;
+	margin-left: 12.2448%;
+	width: 18.3673%;
+	display: block;
+}
+#LayoutDiv11 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv12 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 18.3673%;
+	display: block;
+}
+#LayoutDiv13 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 69.3877%;
+	display: block;
+}
+#LayoutDiv14 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 18.3673%;
+	display: block;
+}
+#LayoutDiv15 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 69.3877%;
+	display: block;
+}
+#LayoutDiv16 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv17 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 28.5714%;
+	display: block;
+}
+#LayoutDiv18 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 59.1836%;
+	display: block;
+}
+#LayoutDiv19 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv20 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 18.3673%;
+	display: block;
+}
+#LayoutDiv21 {
+	clear: none;
+	float: left;
+	margin-left: 12.2448%;
+	width: 59.1836%;
+	display: block;
+}
+#LayoutDiv22 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 89.7959%;
+	display: block;
+}
+#LayoutDiv23 {
+	clear: none;
+	float: left;
+	margin-left: 2.0408%;
+	width: 59.1836%;
+	display: block;
+}
+#LayoutDiv24 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 18.3673%;
+	display: block;
+}
+}
